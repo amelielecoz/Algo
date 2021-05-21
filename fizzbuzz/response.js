@@ -15,13 +15,13 @@ const fizzbuzz = () => {
     console.log(`Display numbers between ${MIN} and ${N}`)
     for (let index = MIN; index < N; index++) {
         if (index % 15 === 0) {
-            console.log(index, 'FizzBuzz')
+            console.log('FizzBuzz')
         }
         else if (index % 3 === 0) {
-            console.log(index, 'Fizz')
+            console.log('Fizz')
         }
         else if (index % 5 === 0) {
-            console.log(index, 'Buzz')
+            console.log('Buzz')
         }
     }
 }
