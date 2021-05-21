@@ -11,11 +11,11 @@ const increment = (array) => {
                 array.unshift(1)
             }
         } else {
-            array[i] += 1
+            array[i]++
             break;
         }
     }
-    console.log('modified array', array)
+    console.log(array)
 }
 
 
